@@ -19,3 +19,6 @@ https://stackoverflow.com/questions/53037698/how-can-i-find-the-most-frequent-tw
 
 ### Author
 Just another Nanodegree guy
+
+### Additional information
+Thank you for this amazing course!
