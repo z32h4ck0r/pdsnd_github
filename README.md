@@ -17,3 +17,5 @@ https://note.nkmk.me/en/python-pandas-head-tail/
 https://stackoverflow.com/questions/24870306/how-to-check-if-a-column-exists-in-pandas
 https://stackoverflow.com/questions/53037698/how-can-i-find-the-most-frequent-two-column-combination-in-a-dataframe-in-python
 
+### Author
+Just another Nanodegree guy
