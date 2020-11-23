@@ -1,15 +1,19 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created on 20201123
 
 ### Project Title
-Replace the Project Title
+Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+This is a Python written project which can answer interesting questions about US bike share data
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credits going out to:
+https://github.com/ozlerhakan/bikeshare/blob/master/bikeshare.py#L70
+https://note.nkmk.me/en/python-pandas-head-tail/
+https://stackoverflow.com/questions/24870306/how-to-check-if-a-column-exists-in-pandas
+https://stackoverflow.com/questions/53037698/how-can-i-find-the-most-frequent-two-column-combination-in-a-dataframe-in-python
 
