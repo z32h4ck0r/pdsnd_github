@@ -10,7 +10,9 @@ months = ['january', 'february', 'march', 'april', 'may', 'june']
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
 def get_filters():
-
+	"""
+	Geetting user input for filtering the files
+	"""
 	
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 	while True:
@@ -152,12 +154,12 @@ def raw_data(df):
 	"""Display 5 rows of RAW data and for every "yes" 5 more."""
 	rows = 5
 	# Display the head (5 first rows) of dataframe
-	ask_user = input('Would you like to view the first 5 rows of raw data for the city selected? Enter yes or no:\n').lower()
+	ask_user = input('Would you like to view the first 5 rows of raw data for the selected city? Enter yes or no:\n').lower()
 	if ask_user == 'yes':
 		print(df.head())
 		# Make it possible for the user to add 5 more rows as long as he wants.		
 		while True:
-			ask_user_more = input('Would you like to view 5 more rows of raw data for the city selected? Enter yes or no:\n').lower()
+			ask_user_more = input('Would you like to view 5 more rows of raw data for the selected city? Enter yes or no:\n').lower()
 			if ask_user_more == 'yes': 
 				print(df[rows:(rows+5)])
 				rows += 5
