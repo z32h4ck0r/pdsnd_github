@@ -10,7 +10,9 @@ months = ['january', 'february', 'march', 'april', 'may', 'june']
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
 def get_filters():
-
+	"""
+	Geetting user input for filtering the files
+	"""
 	
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 	while True:
